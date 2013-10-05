@@ -46,12 +46,8 @@ void main() {
       
     }
 
-//    query("#rssfeed").text = bufferrss.toString();
     HtmlElement htmlelement = query('#rssfeed');
     htmlelement.innerHtml = bufferrss.toString();
-    
-//    query("#rssfeed").className ="well";
-//    query("#rssfeed").
     
   });
   
