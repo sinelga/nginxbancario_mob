@@ -1,7 +1,9 @@
+body { padding-top: 70px; }
+
 
 .rssfeed {
   
-  margin-top: 65px;
+ /* margin-top: 65px;*/
   width:55%;
   
 }
