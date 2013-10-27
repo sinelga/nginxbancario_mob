@@ -14,8 +14,8 @@ show(event,List<ForMark> forMarkList) {
     close.onClick.listen((event) => closeevent.close(event));
     var closeelem = querySelector('#close');
     closeelem.append(close);
-
     start=true;
+    
   } else {
     
     querySelector('#close').hidden = false;
@@ -35,23 +35,21 @@ show(event,List<ForMark> forMarkList) {
     cont = item.Cont.substring(0, 500)+"...";
   
   } else {
-    cont = item.Cont;
-    
+    cont = item.Cont;   
   }
+  var ads = "<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script><ins class='adsbygoogle' style='display:inline-block;width:200px;height:200px' data-ad-client='ca-pub-4265026941264081' data-ad-slot='6705877857'></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>";
   
-//  var htmlstr="<div class='jumbotron'><div class='container'> ${title}<div class='media'><img class='media-object pull-left itemimage' src='${imagelink}' alt=''><div class='media-body'> <p class='media-heading'>${cont}</p></div></div> </div></div>";
-  var htmlstr="<div class='page-header'> ${title}</div><div class='media'><img class='media-object img-thumbnail itemimage' src='${imagelink}' alt=''><div class='media-body'> <p class='media-heading googlefontcont'>${cont}</p></div></div> ";
+  var htmlstr="<div class='page-header'> ${title}</div><div class='media'><div class='pull-right'>${ads}</div><img class='media-object img-thumbnail itemimage' src='${imagelink}' alt=''><div class='media-body'><p class='media-heading googlefontcont'>${cont}</p></div></div> ";
   
   var divElement = new DivElement();
   divElement.setInnerHtml(htmlstr, treeSanitizer: new NullTreeSanitizer() );
   
   if (seleteditemplace.hasChildNodes()) {
-//  seleteditemplace.append(divElement);
-//    print("replace");
+
     seleteditemplace.children.clear();
     seleteditemplace.append(divElement);
   } else {
-//    print("append");
+
     seleteditemplace.append(divElement);
   }
   
