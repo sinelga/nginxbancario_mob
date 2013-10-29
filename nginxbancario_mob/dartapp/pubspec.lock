@@ -4,7 +4,7 @@ packages:
   browser:
     description: browser
     source: hosted
-    version: "0.8.5"
+    version: "0.8.7"
   js:
     description: js
     source: hosted
@@ -16,4 +16,4 @@ packages:
   meta:
     description: meta
     source: hosted
-    version: "0.8.5"
+    version: "0.8.7"
