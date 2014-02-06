@@ -35829,7 +35829,7 @@ y=C.xB.g("<i class='fa fa-share fa-2x'></i><div class='googlefonttitle'>",b.gMx(
 b.gGL()
 x=b.gXn()
 w=C.xB.g("<p class='media-heading googlefontcont'>",J.Nj(b.gNK(),0,25))+"...</p>"
-v="<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='"+H.d(x)+"' alt=''><div class='media-body'> <h4 class='media-heading'>"+y+"</h4>"+w+"</div></div>"
+v="<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='http://146.185.151.26:8080/crop/150x150/"+H.d(x)+"' alt=''><div class='media-body'> <h4 class='media-heading'>"+y+"</h4>"+w+"</div></div>"
 u=document.createElement("div",null)
 t=J.YE(u)
 s=t.gVl(u)

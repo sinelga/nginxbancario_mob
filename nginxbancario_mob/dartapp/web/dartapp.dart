@@ -34,7 +34,6 @@ void main() {
       forMarkList.add(forMark);
 
     }
-//    js.release(proxy);
     
     for (var i=0;i < forMarkList.length;i++){
       
@@ -55,7 +54,7 @@ createMediaObject(i,ForMark item){
   var imagelink = item.ImageLink;
   var cont = "<p class='media-heading googlefontcont'>"+item.Cont.substring(0, 25)+"...</p>";
   
-  var htmlstr = "<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='${imagelink}' alt=''><div class='media-body'> <h4 class='media-heading'>${title}</h4>${cont}</div></div>";
+  var htmlstr = "<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='http://146.185.151.26:8080/crop/150x150/${imagelink}' alt=''><div class='media-body'> <h4 class='media-heading'>${title}</h4>${cont}</div></div>";
   
   var divElement = new DivElement();
   divElement.onClick.listen((event) => clickonitemevent.show(event,forMarkList));
