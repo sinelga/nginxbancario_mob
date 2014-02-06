@@ -1,0 +1,25 @@
+body {
+ padding-top: 65px;
+ margin:5px;
+}
+
+.itemimage {
+  width: 50%;
+}
+.itemimage30 {
+  width: 30%;
+}
+
+.googlefonttitle {
+  font-family: 'Courgette', cursive;
+  font-size: 100%;
+  text-shadow: 1px 1px 1px #aaa;
+ /* color: red !important;*/
+}
+
+.googlefontcont {
+  font-family: 'Courgette', cursive;
+  font-size: 70%;
+  /*text-shadow: 1px 1px 1px #aaa; */
+ /* color: red !important;*/
+}
