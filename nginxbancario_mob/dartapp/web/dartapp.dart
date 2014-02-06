@@ -16,7 +16,8 @@ void main() {
   Future<js.Proxy> result = jsonp.fetch(
 //      select * from data.html.cssselect where url="www.corriere.it/economia/corriereconomia" and css=".homearticle-box"
 //      uri: "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20data.html.cssselect%20where%20url%3D%22www.corriere.it%2Feconomia%2Fcorriereconomia%22%20and%20css%3D%22.homearticle-box%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=?"
-        uri: "http://146.185.151.26/redis?callback=?"
+//        uri: "http://146.185.151.26/redis?callback=?"
+          uri: "http://146.185.151.26/redis?callback=?"  
   
   );
   
@@ -24,16 +25,16 @@ void main() {
 
     var items = proxy;
     
-    for (var i=0;i < 12;i++){
-      ForMark forMark = new ForMark();
+    for (var i=0;i < 10;i++){
       
+      ForMark forMark = new ForMark();      
       forMark.Cont = items[i]["Cont"];
       forMark.ImageLink = items[i]["ImgLink"];
       forMark.Title = items[i]["Title"];
       forMarkList.add(forMark);
 
     }
-    js.release(proxy);
+//    js.release(proxy);
     
     for (var i=0;i < forMarkList.length;i++){
       
