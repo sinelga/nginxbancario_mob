@@ -35821,7 +35821,7 @@ if(typeof print=="function"){print(a)
 return}throw "Unable to print message: " + String(a)},"call$1","ahd",2,0,316,325,"printString"]}],["","file:///home/juno/git/nginxbancario_mob/nginxbancario_mob/dartapp/web/dartapp.dart",,B,{
 "":"",
 E24:[function(){$.qg=H.K6([],[S.Od])
-J.oA(Z.Lt(C.xR,null,"http://146.185.151.26/redis?callback=?",null),new B.em())
+J.oA(Z.Lt(C.xR,null,"http://146.185.151.26/redis?redisid=it_IT:news:Home&callback=?",null),new B.em())
 $.KF=document.querySelector("#rssfeeder")},"call$0","VQk",0,0,436,"main"],
 Pn:[function(a,b){var z,y,x,w,v,u,t,s,r,q,p
 z=J.AG(a)
@@ -35829,7 +35829,7 @@ y=C.xB.g("<i class='fa fa-share fa-2x'></i><div class='googlefonttitle'>",b.gMx(
 b.gGL()
 x=b.gXn()
 w=C.xB.g("<p class='media-heading googlefontcont'>",J.Nj(b.gNK(),0,25))+"...</p>"
-v="<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='http://146.185.151.26:8080/crop/150x150/"+H.d(x)+"' alt=''><div class='media-body'> <h4 class='media-heading'>"+y+"</h4>"+w+"</div></div>"
+v="<div class='media'><img class='media-object pull-left img-thumbnail itemimage' src='http://146.185.151.26:8080/crop/130x130/"+H.d(x)+"' alt=''><div class='media-body'> <h4 class='media-heading'>"+y+"</h4>"+w+"</div></div>"
 u=document.createElement("div",null)
 t=J.YE(u)
 s=t.gVl(u)
@@ -35844,7 +35844,7 @@ J.Kv($.KF,u)},"call$2","Dej",4,0,2115,273,2116,"createMediaObject"],
 em:{
 "":"Li:6184;",
 call$1:[function(a){var z,y,x
-for(z=J.U6(a),y=0;y<10;++y){x=new S.Od(null,null,null,null,null)
+for(z=J.U6(a),y=0;y<12;++y){x=new S.Od(null,null,null,null,null)
 x.NK=J.UQ(z.t(a,y),"Cont")
 x.Xn=J.UQ(z.t(a,y),"ImgLink")
 x.Mx=J.UQ(z.t(a,y),"Title")

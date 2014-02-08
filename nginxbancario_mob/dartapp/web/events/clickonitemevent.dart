@@ -16,8 +16,7 @@ show(event,List<ForMark> forMarkList) {
     start=true;
     
   } else {
-    
-//    querySelector('#close').hidden = false;
+
     querySelector('#close').style.display="block";
     
   }
